@@ -1,2 +1,2 @@
 # mallorybulkley.github.io
-[Portfolio](mallorybulkley.com)
+[Portfolio](http://mallorybulkley.com)
