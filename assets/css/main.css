@@ -2802,7 +2802,7 @@
 		color: rgba(255, 255, 255, 0.75);
 		background-color: #4686a0;
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("https://raw.githubusercontent.com/mallorybulkley/mallorybulkley.github.io/master/images/background.jpg");
+		background-image: url("../../images/background.jpg");
 		background-position: bottom center,						center center,					center center;
 		background-size: cover,							cover,							cover;
 		overflow: hidden;
