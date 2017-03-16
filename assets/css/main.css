@@ -2802,12 +2802,13 @@
 		color: rgba(255, 255, 255, 0.75);
 		background-color: #4686a0;
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("../../images/background.jpg");
+		background: linear-gradient(rgba(0, 0, 0, 0.35),rgba(0, 0, 0, 0.35)), url("../../images/background.jpg");
 		background-position: bottom center,						center center,					center center;
 		background-size: cover,							cover,							cover;
 		overflow: hidden;
 		position: relative;
 		text-align: center;
+		bottom: 0;
 	}
 
 		#header a {
@@ -2892,10 +2893,13 @@
 
 		#header h1 {
 			margin: 0;
+			font-weight: bold;
 		}
 
 		#header p {
 			margin: 1em 0 0 0;
+			font-weight: bold;
+			color: #ffffff;
 		}
 
 		#header .actions {
@@ -2989,8 +2993,7 @@
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("../../images/background.jpg");
-		/*background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);*/
+		background: linear-gradient(rgba(0, 0, 0, 0.35),rgba(0, 0, 0, 0.35)), url("../../images/background.jpg");
 		background-position: bottom,						center center,					center center;
 		background-size: cover,							cover,							cover;
 		text-align: center;
@@ -3078,6 +3081,11 @@
 
 		#footer .icons {
 			margin: 0;
+		}
+
+		#footer h2, #footer p {
+			font-weight: bold;
+			color: #ffffff;
 		}
 
 		#footer .copyright {
